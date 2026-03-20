@@ -8,6 +8,7 @@
     "dev": "netlify dev",
     "dev:vite": "vite",
     "build": "tsc && vite build",
+    "start":"node dist/index.js",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --ext .ts,.tsx",
